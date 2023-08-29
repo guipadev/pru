@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sysman
+    username: ${USER_BD}
+    password: ${PASS_BD}
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+      format_sql: true
+
+springdoc:
+  api-docs:
+    enable: 'true'
+  swaggger-ui:
+    enable: 'true'
+  swagger-ui:
+    path: /doc/swagger-ui.html
