@@ -58,3 +58,10 @@ Los siguientes puntos no son requeridos en su solución, se tendrá en cuenta pa
 - Soporte de autenticación por token de alguno de los servicios REST.
 - Demostrar el manejo de librería de Log (log4j, u otra).
 - Pruebas Unitarias (JUnit, otra).
+
+
+### Create DB
+`CREATE SCHEMA sysman DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;`
+
+### Consultas de end point
+`http://localhost:8081/doc/swagger-ui/index.html`
